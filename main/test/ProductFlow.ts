@@ -3,6 +3,7 @@ import { browser, by, element, ExpectedConditions } from "protractor";
 import { ElementExtensions } from "../utilities/ElementExtension";
 import { Cart } from "../pages/Cart";
 import { Home } from "../pages/Home";
+
 //Usually import on JS
 //var home = require('../pages/Home.ts');
 

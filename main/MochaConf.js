@@ -18,7 +18,7 @@ exports.config = {
         browser.driver.get("http://automationpractice.com/index.php");
         browser.manage().window().maximize();
         //Only for non-angular applications
-        browser.waitForAngularEnabled(false);
+        //browser.waitForAngularEnabled(false);
         browser.ignoreSynchronization = true;
         //Until here
         global.browser = globals.browser;
